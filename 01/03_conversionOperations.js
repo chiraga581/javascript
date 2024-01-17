@@ -20,4 +20,42 @@ console.log(typeof (valueInNumber2))
 //  "" -> false
 //   "Chirag" => true 
 console.log("number conversion of \n \"4\" \t \     t to boolean will be: " , Boolean(4))
+
+
+
+/*
+
+    primitive data types 
+    (Call by value )
+    7 types : string , number . boolean , null , undefined , symbol , BigInt
+    
+
+
+    Non Primitive
+    (reference type)
+    Array , objects , functions 
+
+
+*/
+
+
+//  symbol definition 
+const id = Symbol(12324)
+
+const bigNum = 123342452134n  // Bigint
+
+// Array 
+
+const heros = ["Iron man" , "Superman" ];
+
+//  objects
+let obj = {
+    name : "chirag ",
+    rollnumber : 9958,
+    datatype : "Dynamically typed"
+}
+
+const MyFunction = function() {
+    console.log("Hello Akshuu");
+}
  
