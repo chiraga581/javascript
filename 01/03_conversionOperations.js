@@ -19,5 +19,5 @@ console.log(typeof (valueInNumber2))
 //  0 -> false 
 //  "" -> false
 //   "Chirag" => true 
-console.log("number conversion of \n \"4\" \t \t to boolean will be: " , Boolean(4))
+console.log("number conversion of \n \"4\" \t \     t to boolean will be: " , Boolean(4))
  
